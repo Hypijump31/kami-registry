@@ -34,6 +34,11 @@
         "pattern": "^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+(@[a-zA-Z0-9._-]+)?$",
         "description": "GitHub shorthand: owner/repo or owner/repo@tag"
       },
+      "download_url": {
+        "type": "string",
+        "pattern": "^https://",
+        "description": "Direct HTTPS URL to the plugin .zip archive"
+      },
       "wasm_sha256": {
         "type": "string",
         "minLength": 64,

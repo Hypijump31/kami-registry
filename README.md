@@ -92,6 +92,7 @@ Chaque entrée dans `index.json` :
 | `version` | Oui | Version semver |
 | `description` | Oui | Description courte (< 120 caractères) |
 | `source` | Oui | GitHub shorthand : `owner/repo@tag` |
+| `download_url` | Non | URL HTTPS directe vers le `.zip` du plugin |
 | `wasm_sha256` | Oui | Hash SHA-256 hex du fichier `.wasm` |
 | `signature` | Non | Signature Ed25519 hex (128 chars) |
 | `signer_public_key` | Non | Clé publique Ed25519 hex (64 chars) |
@@ -99,8 +100,8 @@ Chaque entrée dans `index.json` :
 ### Règles
 
 - **Une entrée par ID** — mettez à jour l'entrée existante pour les nouvelles versions
-- Le `source` doit pointer vers une release GitHub valide contenant `plugin.zip`
-- Le `plugin.zip` doit contenir `tool.toml` + le fichier `.wasm` référencé
+- Le `source` doit pointer vers un dépôt GitHub valide avec tag de release
+- Le `download_url` doit pointer vers un `.zip` contenant `tool.toml` + `.wasm`
 - La description doit être concise (< 120 caractères)
 - Les IDs doivent suivre le format reverse-DNS : `dev.org.nom` ou `com.company.tool`
 
