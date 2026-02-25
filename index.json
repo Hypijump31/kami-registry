@@ -108,5 +108,60 @@
     "wasm_sha256": "c9d2bb1bdd97447b6e47bf78feb29d2aab4f264c59416d3c59803607499e8ec4",
     "signature": "15afcab0b84d238d785e0fda98a5172d3feb10bfa601dbf4bb789ba691adabbfa93455851dc318c4abc98bf3b2954135ab740e82689f23c6f6e1a1e5ca57ae08",
     "signer_public_key": "6cd878f91272444016df3548e4149b1ab64984ed724b5752ab533082e4af0fd5"
+  },
+  {
+    "id": "dev.kami.math-eval",
+    "name": "math-eval",
+    "version": "0.1.0",
+    "description": "Evaluate mathematical expressions with variables and precision control. Supports +, -, *, /, ^, sqrt, sin, cos, tan, ln, log2, log10, floor, ceil, round, min, max, pow, pi, e.",
+    "source": "Hypijump31/kami-math-eval@v0.1.0",
+    "download_url": "https://github.com/Hypijump31/kami-math-eval/releases/download/v0.1.0/plugin.zip",
+    "wasm_sha256": "3939e67c5d7f6bdbd2d3a8e2d8e0d73386910464b1fe602dd4f7ea6b5a67dc65",
+    "signature": "663a6db9d9170cdf6bfa18381449d11971df271ceb88de9ce11784c31789a73460f68ff79991dc5be38b054b185590038f58cdeae61f590c34d8745c0ba03f08",
+    "signer_public_key": "6cd878f91272444016df3548e4149b1ab64984ed724b5752ab533082e4af0fd5"
+  },
+  {
+    "id": "dev.kami.datetime-calc",
+    "name": "datetime-calc",
+    "version": "0.1.0",
+    "description": "Date/time calculations: parse ISO dates, compute diffs, add/subtract durations (90d, 3h, 2w), format with strftime, convert Unix timestamps.",
+    "source": "Hypijump31/kami-datetime-calc@v0.1.0",
+    "download_url": "https://github.com/Hypijump31/kami-datetime-calc/releases/download/v0.1.0/plugin.zip",
+    "wasm_sha256": "ce752e36eef0b86dee894da678b37b1113f4107d5351d2be4307e10c90dce25b",
+    "signature": "edd16f254cd9607e9fcb136087616a73828e874a28fef2dcdf9ac451bc606a27f20bee7ce051fdcab8c3ebad201a8f3eef0a12cd92d4b58881a40ba528af0d08",
+    "signer_public_key": "6cd878f91272444016df3548e4149b1ab64984ed724b5752ab533082e4af0fd5"
+  },
+  {
+    "id": "dev.kami.yaml-json-convert",
+    "name": "yaml-json-convert",
+    "version": "0.1.0",
+    "description": "Convert between JSON, YAML, and TOML formats with automatic source detection. Supports pretty-printing and round-trip conversion.",
+    "source": "Hypijump31/kami-yaml-json-convert@v0.1.0",
+    "download_url": "https://github.com/Hypijump31/kami-yaml-json-convert/releases/download/v0.1.0/plugin.zip",
+    "wasm_sha256": "d5e0a99a2f5bf5f27f880dc030391df750f0eaa2edfa58b9bd0bb3527f475ea5",
+    "signature": "278ddae4d09acd3a21ad62af191bdf9b190a08737dd49ee9e179bb85a009aa9dc6b163ec9bf47a23eb5a99d1762909f8a40ccf7b54a324dcd321ed9631528c04",
+    "signer_public_key": "6cd878f91272444016df3548e4149b1ab64984ed724b5752ab533082e4af0fd5"
+  },
+  {
+    "id": "dev.kami.uuid-generate",
+    "name": "uuid-generate",
+    "version": "0.1.0",
+    "description": "Generate UUIDs (v4 random, v7 time-ordered), validate and parse existing UUIDs. Supports batch generation up to 100.",
+    "source": "Hypijump31/kami-uuid-generate@v0.1.0",
+    "download_url": "https://github.com/Hypijump31/kami-uuid-generate/releases/download/v0.1.0/plugin.zip",
+    "wasm_sha256": "c06e29ea8518d7d9b799433363f7419de0e6ae391376bbeef57c71ca5e0eab88",
+    "signature": "bdbf652a6ced65a39988ad9245f42d6dcd68fe0909faab81e1e6fa6cfe1742b7f824fbe49b26e45835955ad964d6bdc725ce57472788bf61097fca59313fe003",
+    "signer_public_key": "6cd878f91272444016df3548e4149b1ab64984ed724b5752ab533082e4af0fd5"
+  },
+  {
+    "id": "dev.kami.schema-validate",
+    "name": "schema-validate",
+    "version": "0.1.0",
+    "description": "Validate a JSON document against a JSON Schema (draft 2020-12/07/04). Returns structured errors with instance path and schema path.",
+    "source": "Hypijump31/kami-schema-validate@v0.1.0",
+    "download_url": "https://github.com/Hypijump31/kami-schema-validate/releases/download/v0.1.0/plugin.zip",
+    "wasm_sha256": "82a56c9e7e1c5bab3994f2ed7fc91e2aeef89a47985141efa6854c2f5791394d",
+    "signature": "d0f7d5cae8d8525e82ee334c022600b8b262c5daaa24f101f151cde5d043fa589e11b1b7a595d9fb740652b520440702d9f6156812beeffd9694a831c955a101",
+    "signer_public_key": "6cd878f91272444016df3548e4149b1ab64984ed724b5752ab533082e4af0fd5"
   }
 ]
